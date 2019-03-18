@@ -1,6 +1,8 @@
-# tweet-of-advice-api
+# Tweet Of Advice API
 
-tweet-of-advice-api
+API Endpoint: https://eda-tweets.herokuapp.com
+
+Note: Using free server so first request may take 20 seconds to respond / fail. Following that it should be instant.
 
 # Get tweets
 
@@ -14,7 +16,7 @@ GET: /tweet/:id
 
 POST: /tweet
 
-Must contain the following (ID automatically appends):
+Must contain the following JSON (ID automatically appends):
 
 ```
 {
