@@ -24,3 +24,10 @@ Must contain the following JSON (ID automatically appends):
   "author": "Luke"
 }
 ```
+# Reset DB 
+```
+$ python
+>> from app import db
+>> db.create_all()
+>> exit()
+```
