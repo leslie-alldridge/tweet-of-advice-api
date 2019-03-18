@@ -4,6 +4,8 @@ API Endpoint: https://eda-tweets.herokuapp.com
 
 Note: Using free server so first request may take 20 seconds to respond / fail. Following that it should be instant.
 
+Please use this API responsibly. It's designed to help students at EDA post JSON objects to an API endpoint.
+
 # Get tweets
 
 GET: /tweet
