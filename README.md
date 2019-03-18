@@ -18,7 +18,7 @@ GET: /tweet/:id
 
 POST: /tweet
 
-Must contain the following JSON (ID automatically appends):
+Must contain the following JSON key value pairs (ID automatically appends and you can select your own values to append):
 
 ```
 {
