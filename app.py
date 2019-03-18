@@ -51,11 +51,14 @@ def add_tweet():
 @app.route('/tweet', methods=['GET'])
 def get_tweets():
     all_tweets = Tweet.query.all()
-    result = tweet_schema.dump(all_tweets)
+    print(all_tweets)
+
+    result = tweets_schema.dump(all_tweets)
+    print(result)
     return jsonify(result.data)
 
 
-@app.route('/product/<id>', methods=['GET'])
+@app.route('/tweet/<id>', methods=['GET'])
 def get_tweet(id):
     tweet = Tweet.query.get(id)
     return tweet_schema.jsonify(tweet)
